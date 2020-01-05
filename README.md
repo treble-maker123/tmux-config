@@ -16,7 +16,7 @@ Following [this StackExchange post](https://unix.stackexchange.com/questions/436
 
 ### Tmux Plugin Manager
 
-See their [Github] page for more information.
+See their [Github](https://github.com/tmux-plugins/tpm) page for more information.
 
 ## Cheatsheet
 
