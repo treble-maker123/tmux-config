@@ -12,7 +12,7 @@ Place the **.tmux.conf** in your home directory (i.e. ~/) or create a symlink by
 
 ### Starting Tmux on New Terminal Session
 
-Following [this StackExchange post](https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux), add `[ -z $TMUX ] && { tmux a -t default || exec tmux new -s default; }` to the end of the **.bashrc** file in your home directory (i.e. ~/) and run `source ~/.bashrc` to activate the changes.
+Following [this StackExchange post](https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux), add `[ -z $TMUX ] && { tmux a -t default || exec tmux new -s default; }` to the end of the **.bashrc** file in your home directory (i.e. ~/) and run `source ~/.bashrc` to activate the changes. This will create a session called "default" and attach to it on shell session initialization, or attach to an existing session called "default" if it exists.
 
 ### Tmux Plugin Manager
 
