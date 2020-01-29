@@ -8,7 +8,9 @@ My own configuration and cheatsheet for tmux.
 
 Run `sudo apt install tmux` on Linux (Debian) or `brew install tmux` on MacOS to get the latest tmux.
 
-Place the **.tmux.conf** in your home directory (i.e. ~/) or create a symlink by running `ln -s /path/to/tmux-config/.tmux.conf ~/.tmux.conf`, and run `tmux source ~/.tmux.conf` to activate the changes.
+1.  Place the **.tmux.conf** in your home directory (i.e. ~/) or create a symlink by running `ln -s /path/to/tmux-config/.tmux.conf ~/.tmux.conf`,
+2.  Clone Tmux Plugin Manager (TPM) by running `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`,
+3.  Run `tmux source ~/.tmux.conf` to activate the changes.
 
 ### Starting Tmux on New Terminal Session
 
@@ -22,9 +24,9 @@ See their [Github](https://github.com/tmux-plugins/tpm) page for more informatio
 
 ### Terminal Commands
 
-- `tmux ls`: lists all of the sessions
-- `tmux a -t SESSION`: attach to SESSION
-- `tmux rename-session -t OLD-NAME NEW-NAME`: rename session from OLD-NAME to NEW-NAME
+-   `tmux ls`: lists all of the sessions
+-   `tmux a -t SESSION`: attach to SESSION
+-   `tmux rename-session -t OLD-NAME NEW-NAME`: rename session from OLD-NAME to NEW-NAME
 
 ### Application Commands
 
@@ -32,24 +34,24 @@ All of the commands below are preceeded by ctrl + B
 
 #### Pane
 
-- Close: x
-- Zoom: z 
+-   Close: x
+-   Zoom: z 
 
 #### Window
 
-- Rename window: , (comma)
-- Move window: . (period) then enter an index for the window
-- Split window horizontally: | (pipe)
-- Split window vertically: - (dash)
+-   Rename window: , (comma)
+-   Move window: . (period) then enter an index for the window
+-   Split window horizontally: | (pipe)
+-   Split window vertically: - (dash)
 
 #### Session
 
-- Rename session: $
+-   Rename session: $
 
 #### Miscellaneous
 
-- Enable mouse mode: m
-- Disablne mouse mode: M
-- Exit: d
+-   Enable mouse mode: m
+-   Disablne mouse mode: M
+-   Exit: d
 
 Mouse mode allows the use of mouse to select panes and windows, as well as resizing panes.
