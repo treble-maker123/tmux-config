@@ -6,7 +6,7 @@ My own configuration and cheatsheet for tmux.
 
 ### Installation
 
-Run `sudo apt install tmux` on Linux (Debian) or `brew install tmux` on MacOS to get the latest tmux.
+Run `sudo apt install tmux` on Linux (Debian), `brew install tmux` on MacOS to get the latest tmux, or follow [this guide](https://www.looklinux.com/how-to-install-tmux-from-source-non-root-user/) to install manually, then follow the steps below to configure, 
 
 1.  Place the **.tmux.conf** in your home directory (i.e. ~/) or create a symlink by running `ln -s /path/to/tmux-config/.tmux.conf ~/.tmux.conf`,
 2.  Clone Tmux Plugin Manager (TPM) by running `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`,
