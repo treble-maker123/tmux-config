@@ -10,7 +10,8 @@ Run `sudo apt install tmux` on Linux (Debian), `brew install tmux` on MacOS to g
 
 1.  Place the **.tmux.conf** in your home directory (i.e. ~/) or create a symlink by running `ln -s /path/to/tmux-config/.tmux.conf ~/.tmux.conf`,
 2.  Clone Tmux Plugin Manager (TPM) by running `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`,
-3.  Run `tmux source ~/.tmux.conf` to activate the changes.
+3.  Install the plugins by pressing `prefix + I`, 
+4.  Run `tmux source-file ~/.tmux.conf` to activate the changes.
 
 ### Starting Tmux on New Terminal Session
 
@@ -43,6 +44,8 @@ All of the commands below are preceeded by ctrl + B
 -   Move window: . (period) then enter an index for the window
 -   Split window horizontally: | (pipe)
 -   Split window vertically: - (dash)
+-   Move to the left window: Shift + Left arrow
+-   Move to the right window: Shift + Right arrow
 
 #### Session
 
