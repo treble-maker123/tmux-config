@@ -56,6 +56,7 @@ Sidebar is a plugin that displays the current path in a tree directory.
 #### Session
 
 -   Rename session: $
+-   List sessions: s (subsequently select one and move to it)
 
 #### Miscellaneous
 
