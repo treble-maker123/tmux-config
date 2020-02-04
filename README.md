@@ -31,7 +31,13 @@ See their [Github](https://github.com/tmux-plugins/tpm) page for more informatio
 
 ### Application Commands
 
-All of the commands below are preceeded by ctrl + B
+All of the commands below are preceeded by the prefix `ctrl + B`.
+
+#### Sidebar
+
+Sidebar is a plugin that displays the current path in a tree directory.
+
+-   Toggle: TAB
 
 #### Pane
 
