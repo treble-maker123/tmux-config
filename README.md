@@ -25,6 +25,10 @@ Following [this StackExchange post](https://unix.stackexchange.com/questions/436
 
 See their [Github](https://github.com/tmux-plugins/tpm) page for more information.
 
+### Border Display
+
+On certain machines, the tmux borders are displayed as 'x' and 'q' characters instead of lines. In those scenarios, starting tmux with -u, i.e. `tmux -u` fixes the problem. I have not been able to find a fix to add to the conf file to address this yet.
+
 ## Cheatsheet
 
 ### Terminal Commands
